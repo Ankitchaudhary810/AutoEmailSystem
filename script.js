@@ -39,7 +39,7 @@ app.post("/", function (req, res) {
     service: 'gmail',
     auth: {
       user: "iammortex07@gmail.com",
-      pass: "jsyi uvrs pzll bths",
+      pass: "put your app passowrd",
     }
   });
 
@@ -74,7 +74,7 @@ app.post("/", function (req, res) {
     service: 'gmail',
     auth: {
       user: "iammortex07@gmail.com",
-      pass: "jsyi uvrs pzll bths",
+      pass: "put your app passowrd",
     }
   });
 

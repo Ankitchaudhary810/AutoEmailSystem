@@ -38,14 +38,14 @@ app.post("/", function (req, res) {
   var transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-      user: "iammortex07@gmail.com",
-      pass: "jsyi uvrs pzll bths",
+      user: "your host email",
+      pass: "your host app password",
     }
   });
 
   var mailOptions = {
-    from: 'iammortex07@gmail.com',
-    to: 'iammortex07@gmail.com',
+    from: 'host email',
+    to: 'your host email',
     subject: 'Someone Contected You Throw Portfolio',
     text: "NodeJs Nodemailer is working fine below that you will find the data Related to the client who has contected you",
     html: client_result
@@ -73,13 +73,13 @@ app.post("/", function (req, res) {
   var Transportar_client = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-      user: "iammortex07@gmail.com",
-      pass: "jsyi uvrs pzll bths",
+       user: "your host email",
+      pass: "your host app password",
     }
   });
 
   var mailOptions_cleint = {
-    from: 'iammortex07@gmail.com',
+    from: 'your host email',
     to: req.body.gmail,
     subject: 'Auto Generated Mail from Portfolio',
     html: client_data
